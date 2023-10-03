@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import { Home } from "./src/screens/Home";
+import { CarDetails } from "./src/screens/CarDetails";
 import {
   useFonts,
   Inter_400Regular,
@@ -46,7 +46,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <CarDetails />
     </ThemeProvider>
   );
 }
